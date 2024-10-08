@@ -8,7 +8,17 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <header>HELLO </header>
+    <div class="title">
+        <header>DANTE FORECAST</header>
+    </div>
+    <div class="content">
+        <form action="">
+            <label for="location">Your City</label>
+            <input type="text" name="location" id="location" required pattern="[A-Za-z\s]+" title="Please enter only letters and spaces">
+            <button type="submit" id="submit">Get Weather!</button>
+        </form>
+        <h2></h2>
+    </div>
     
 </body>
 </html>

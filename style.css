@@ -25,6 +25,37 @@ img {
 
 /* DANTE CODE HERE -----------*/
 
+@font-face {
+    font-family: "Weather in October";
+    src: url(./Weather\ in\ October\ \(Demo\).otf);
+}
+
 * {
     color-scheme: dark;
+    --titleFont-font-family: "Weather in October";
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100svh;
+    gap: 100px;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-family: var(--titleFont-font-family);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+form button {
+    align-self: center;
+}
+
