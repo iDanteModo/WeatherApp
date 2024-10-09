@@ -17,7 +17,33 @@
             <input type="text" name="location" id="location" required pattern="[A-Za-z\s]+" title="Please enter only letters and spaces">
             <button type="submit" id="submit">Get Weather!</button>
         </form>
-        <h2></h2>
+        <div class="weatherForecast">
+            <div class="location">
+                <div class="locationInfo">
+                    <h2>Location Name</h2>
+                    <h3>Conditions</h3>
+                </div>
+                <div class="sun">
+                    <div class="sunTime">
+                        <img src="" alt="" id="sunriseIcon">
+                        <h3 id="sunrise"></h3>
+                    </div>
+                    <div class="sunTime">
+                        <img src="" alt="" id="sunsetIcon">
+                        <h3 id="sunset"></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="temperature">
+                <img src="" alt="" id="icon">
+                <h3 class="temp">°C</h3>
+                <div class="minMax">
+                    <h3 class="tempMin">°C</h3>
+                    <h3 class="tempMax">°C</h3>
+                </div>
+            </div>
+
+        </div>
     </div>
     
 </body>
